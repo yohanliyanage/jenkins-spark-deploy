@@ -1,0 +1,13 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:entry title="Spark Master URL" field="masterUrl"><f:textbox /></f:entry>
+  <f:entry title="Spark Master REST HTTP(s) URL" field="masterRestUrl"><f:textbox /></f:entry>
+  <f:entry title="Spark Scala Version" field="scalaVersion"><f:textbox /></f:entry>
+  <f:entry title="Application Resource URL" field="appResource"><f:textbox /></f:entry>
+  <f:entry title="Main Class" field="mainClass"><f:textbox /></f:entry>
+  <f:entry title="Application Arguments" field="appArgs"><f:textbox /></f:entry>
+  <f:entry title="Spark Configuration Properties" field="sparkProperties"><f:textbox /></f:entry>
+  <f:entry title="Kill previous submission before deploying" field="killBeforeSubmit"><f:checkbox /></f:entry>
+  <f:entry title="Fail the build if deployment fails" field="failBuildOnFailure"><f:checkbox /></f:entry>
+  <f:entry title="Verbose" field="verbose"><f:checkbox /></f:entry>
+</j:jelly>
