@@ -17,7 +17,7 @@
   </parent>
   <groupId>com.yohanliyanage.jenkins.plugins</groupId>
   <artifactId>spark-deploy</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <name>Jenkins Spark Deploy</name>
@@ -47,7 +47,7 @@
     <connection>scm:git:git://github.com/yohanliyanage/jenkins-spark-deploy.git</connection>
     <developerConnection>scm:git:git@github.com:yohanliyanage/jenkins-spark-deploy.git</developerConnection>
     <url>http://github.com/yohanliyanage/jenkins-spark-deploy</url>
-    <tag>spark-deploy-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <repositories>
     <repository>
