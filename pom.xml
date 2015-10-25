@@ -44,6 +44,11 @@
     <url>http://github.com/jenkinsci/${project.artifactId}-plugin</url>
   </scm>
    -->
+  <scm>
+    <connection>scm:git:git://github.com/yohanliyanage/jenkins-spark-deploy.git</connection>
+    <developerConnection>scm:git:git@github.com:yohanliyanage/jenkins-spark-deploy.git</developerConnection>
+    <url>http://github.com/yohanliyanage/jenkins-spark-deploy</url>
+  </scm>
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
